@@ -18,6 +18,8 @@ class MyApp < Sinatra::Base
     "#{@bandname} is the best #{@genrename} band!"
   end
   
-  
+  get '/survey' do
+    erb: food_form
+  end
 
 end
