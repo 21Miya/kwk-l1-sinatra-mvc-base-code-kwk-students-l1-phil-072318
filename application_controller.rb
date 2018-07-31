@@ -21,5 +21,8 @@ class MyApp < Sinatra::Base
   get '/survey' do
     erb: food_form
   end
+  
+  post '/food' do
+  end
 
 end
