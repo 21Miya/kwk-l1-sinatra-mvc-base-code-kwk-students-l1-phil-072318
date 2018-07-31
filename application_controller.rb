@@ -16,6 +16,10 @@ class MyApp < Sinatra::Base
     @genrename = params[:genre]
     "Guess what?"
     "#{@bandname} is the best #{@genrename} band!"
+    
+  get '/survey' do
+  
+end
   end
 
 end
